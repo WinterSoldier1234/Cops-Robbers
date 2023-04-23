@@ -1,7 +1,3 @@
-| MASTER | [DEV BRANCH](https://github.com/rhapidfyre/Cops-n-Robbers/tree/dev) |
-|---------|--------|
-|[![Build Status](https://travis-ci.com/rhapidfyre/Cops-n-Robbers.svg?token=YQuixjt64y8Lxxz9tvQ5&branch=master)](https://travis-ci.com/rhapidfyre/Cops-n-Robbers)|[![Build Status](https://travis-ci.com/rhapidfyre/Cops-n-Robbers.svg?token=YQuixjt64y8Lxxz9tvQ5&branch=dev-build)](https://travis-ci.com/rhapidfyre/Cops-n-Robbers)|
-
 ![](git_banner.jpg)
 
 # 5M Cops and Robbers (5M:CNR)
@@ -90,31 +86,6 @@ import the file into an SQL database, and use a resource to connect to it. Once
 impoted, the game mode will do the rest. Be sure to restart the server after 
 importing the database.
 
-### Resource Files
-
-All details of what each individual resource controls and is used for
-is located in the header of the __resource.lua file.
-
-  * [Blips & Radar Info](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_blips)
-  * [Cash & Banking](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_cash)
-  * [Character Creation](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_charcreate)
-  * [Chat & Notifications](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_chat)
-  * [Clans](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_clans)
-  * [Death](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_death)
-  * [Law Enforcement](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_police)
-  * [Robberies & Heists](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_robberies)
-  * [Scoreboard](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_scoreboard)
-  * [Wanted Script](https://github.com/rhapidfyre/Cops-n-Robbers/tree/master/cnr_wanted)
-  
-### Pull Requests
-
-To submit your code to the master branch, the coding convention must be (mostly)
-followed. I'll put some extra work in for your first few contributions, but if it becomes
-a reocurring issue, I will stop accepting pull requests from you. If you make any 
-changes to the DATABASE, be sure to include an updated SQL file, so we can update
-our databases to match, or there will be errors and inconsistencies.
-
-TL;DR - Any changes to SQL schema must be included in your pull request.
 
 ### Code Convention
 
